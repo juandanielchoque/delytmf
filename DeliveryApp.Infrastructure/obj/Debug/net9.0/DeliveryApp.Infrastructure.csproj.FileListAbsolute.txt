@@ -15,3 +15,4 @@ S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.
 S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\refint\DeliveryApp.Infrastructure.dll
 S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\DeliveryApp.Infrastructure.pdb
 S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\ref\DeliveryApp.Infrastructure.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\DeliveryApp.Infrastructure.sourcelink.json

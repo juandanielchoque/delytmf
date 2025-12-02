@@ -52,3 +52,4 @@ S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.API\obj\Debug\net9.0\DeliveryA
 S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.API\obj\Debug\net9.0\ref\DeliveryApp.API.dll
 S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.API\bin\Debug\net9.0\Newtonsoft.Json.dll
 S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.API\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.API\obj\Debug\net9.0\DeliveryApp.API.sourcelink.json

@@ -6,9 +6,20 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .SetIsOriginAllowed(_ => true)   // permite cualquier origen
+            .AllowCredentials();             // necesario para SignalR
+    });
+});
+
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
-
 builder.Services.AddSignalR();
 
 builder.Services.AddControllers()
@@ -18,31 +29,7 @@ builder.Services.AddControllers()
     });
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Delivery API", Version = "v1" });
-
-    var securitySchema = new OpenApiSecurityScheme
-    {
-        Name = "Authorization",
-        Description = "JWT Authorization header using the Bearer scheme.",
-        In = ParameterLocation.Header,
-        Type = SecuritySchemeType.Http,
-        Scheme = "bearer",
-        BearerFormat = "JWT",
-        Reference = new OpenApiReference
-        {
-            Type = ReferenceType.SecurityScheme,
-            Id = "Bearer"
-        }
-    };
-
-    c.AddSecurityDefinition("Bearer", securitySchema);
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        { securitySchema, new[] { "Bearer" } }
-    });
-});
+builder.Services.AddSwaggerGen();
 
 builder.Services.AddAuthorization();
 
@@ -60,11 +47,15 @@ app.UseHttpsRedirection();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseMiddleware<RequestLoggingMiddleware>();
 
+// CORS ANTES de authentication
+app.UseCors("AllowAll");
+
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapHub<DeliveryHub>("/hubs/delivery");
+// ⭐ SOLO UNA VEZ, Y con CORS
+app.MapHub<DeliveryHub>("/hubs/delivery").RequireCors("AllowAll");
 
 app.Run();
