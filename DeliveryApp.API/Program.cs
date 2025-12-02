@@ -1,20 +1,19 @@
 using DeliveryApp.Application;
 using DeliveryApp.Infrastructure;
 using DeliveryApp.API.Middlewares;
+using DeliveryApp.API.Hubs;
 using Microsoft.OpenApi.Models;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
-builder.Services.AddSignalR();
 
+builder.Services.AddSignalR();
 
 builder.Services.AddControllers()
     .ConfigureApiBehaviorOptions(options =>
     {
-        // disable automatic 400 to show manual validation behavior
         options.SuppressModelStateInvalidFilter = true;
     });
 
@@ -56,7 +55,6 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = "swagger";
 });
 
-
 app.UseHttpsRedirection();
 
 app.UseMiddleware<ExceptionHandlingMiddleware>();
@@ -66,5 +64,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<DeliveryHub>("/hubs/delivery");
 
 app.Run();

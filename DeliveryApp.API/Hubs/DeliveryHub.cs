@@ -4,19 +4,13 @@ namespace DeliveryApp.API.Hubs;
 
 public class DeliveryHub : Hub
 {
-    public async Task JoinOrderGroup(string orderId)
+    public async Task SendLocation(Guid orderId, double latitude, double longitude)
     {
-        await Groups.AddToGroupAsync(Context.ConnectionId, orderId);
+        await Clients.Group(orderId.ToString()).SendAsync("ReceiveLocation", latitude, longitude);
     }
     
-    public async Task UpdateDriverLocation(string orderId, double lat, double lng)
+    public async Task JoinOrder(Guid orderId)
     {
-        await Clients.Group(orderId).SendAsync("DriverLocationUpdated", new 
-        {
-            OrderId = orderId,
-            Latitude = lat,
-            Longitude = lng,
-            Timestamp = DateTime.UtcNow
-        });
+        await Groups.AddToGroupAsync(Context.ConnectionId, orderId.ToString());
     }
 }
