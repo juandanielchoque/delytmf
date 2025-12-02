@@ -1,0 +1,23 @@
+﻿# Rider / IntelliJ
+.idea/
+*.iml
+
+# Visual Studio / VS Code
+.vscode/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+out/
+
+# ASP.NET Sensitive files
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs
+*.log
+
+# Others
+*.DS_Store
