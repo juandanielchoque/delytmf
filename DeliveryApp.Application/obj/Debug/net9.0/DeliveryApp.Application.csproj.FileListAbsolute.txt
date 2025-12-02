@@ -1,0 +1,15 @@
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\obj\Debug\net9.0\DeliveryApp.Application.csproj.AssemblyReference.cache
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\obj\Debug\net9.0\DeliveryApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\obj\Debug\net9.0\DeliveryApp.Application.AssemblyInfoInputs.cache
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\obj\Debug\net9.0\DeliveryApp.Application.AssemblyInfo.cs
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\obj\Debug\net9.0\DeliveryApp.Application.csproj.CoreCompileInputs.cache
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\bin\Debug\net9.0\DeliveryApp.Application.deps.json
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\bin\Debug\net9.0\DeliveryApp.Application.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\bin\Debug\net9.0\DeliveryApp.Application.pdb
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\bin\Debug\net9.0\DeliveryApp.Domain.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\bin\Debug\net9.0\DeliveryApp.Domain.pdb
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\obj\Debug\net9.0\Delivery.A1EF81DE.Up2Date
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\obj\Debug\net9.0\DeliveryApp.Application.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\obj\Debug\net9.0\refint\DeliveryApp.Application.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\obj\Debug\net9.0\DeliveryApp.Application.pdb
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Application\obj\Debug\net9.0\ref\DeliveryApp.Application.dll

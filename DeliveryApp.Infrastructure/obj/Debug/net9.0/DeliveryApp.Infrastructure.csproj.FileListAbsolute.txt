@@ -1,0 +1,17 @@
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\DeliveryApp.Infrastructure.csproj.AssemblyReference.cache
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\DeliveryApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\DeliveryApp.Infrastructure.AssemblyInfoInputs.cache
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\DeliveryApp.Infrastructure.AssemblyInfo.cs
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\DeliveryApp.Infrastructure.csproj.CoreCompileInputs.cache
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\bin\Debug\net9.0\DeliveryApp.Infrastructure.deps.json
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\bin\Debug\net9.0\DeliveryApp.Infrastructure.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\bin\Debug\net9.0\DeliveryApp.Infrastructure.pdb
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\bin\Debug\net9.0\DeliveryApp.Application.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\bin\Debug\net9.0\DeliveryApp.Domain.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\bin\Debug\net9.0\DeliveryApp.Application.pdb
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\bin\Debug\net9.0\DeliveryApp.Domain.pdb
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\Delivery.1198133B.Up2Date
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\DeliveryApp.Infrastructure.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\refint\DeliveryApp.Infrastructure.dll
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\DeliveryApp.Infrastructure.pdb
+S:\delly\delytmf\DeliveryAppMySqlNet9\DeliveryApp.Infrastructure\obj\Debug\net9.0\ref\DeliveryApp.Infrastructure.dll

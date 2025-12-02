@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Infrastructure\\DeliveryApp.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Application\\DeliveryApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Application\\DeliveryApp.Application.csproj",
+        "projectName": "DeliveryApp.Application",
+        "projectPath": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Application\\DeliveryApp.Application.csproj",
+        "packagesPath": "C:\\Users\\PRO\\.nuget\\packages\\",
+        "outputPath": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Domain\\DeliveryApp.Domain.csproj": {
+                "projectPath": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Domain\\DeliveryApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Domain\\DeliveryApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Domain\\DeliveryApp.Domain.csproj",
+        "projectName": "DeliveryApp.Domain",
+        "projectPath": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Domain\\DeliveryApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\PRO\\.nuget\\packages\\",
+        "outputPath": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Infrastructure\\DeliveryApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Infrastructure\\DeliveryApp.Infrastructure.csproj",
+        "projectName": "DeliveryApp.Infrastructure",
+        "projectPath": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Infrastructure\\DeliveryApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\PRO\\.nuget\\packages\\",
+        "outputPath": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Application\\DeliveryApp.Application.csproj": {
+                "projectPath": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Application\\DeliveryApp.Application.csproj"
+              },
+              "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Domain\\DeliveryApp.Domain.csproj": {
+                "projectPath": "S:\\delly\\delytmf\\DeliveryAppMySqlNet9\\DeliveryApp.Domain\\DeliveryApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
