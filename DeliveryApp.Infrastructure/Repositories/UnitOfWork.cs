@@ -7,8 +7,20 @@ public class UnitOfWork : IUnitOfWork
 {
     private readonly AppDbContext _context;
 
-    public UnitOfWork(AppDbContext context) => _context = context;
+    public IOrderRepository Orders { get; }
+    public IRestaurantRepository Restaurants { get; }
 
-    public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default) =>
-        _context.SaveChangesAsync(cancellationToken);
+    public UnitOfWork(
+        AppDbContext context,
+        IOrderRepository orders,
+        IRestaurantRepository restaurants
+    )
+    {
+        _context = context;
+        Orders = orders;
+        Restaurants = restaurants;
+    }
+
+    public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        => _context.SaveChangesAsync(cancellationToken);
 }

@@ -7,4 +7,8 @@ public interface IOrderRepository
     Task<Order?> GetByIdAsync(Guid id);
     Task<List<Order>> GetByCustomerAsync(Guid customerId);
     Task AddAsync(Order order);
+    Task<List<Order>> GetAllAsync();
+    Task<List<Order>> GetPendingAsync();
+    Task UpdateAsync(Order order);
+
 }
