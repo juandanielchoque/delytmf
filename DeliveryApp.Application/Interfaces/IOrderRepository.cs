@@ -10,5 +10,8 @@ public interface IOrderRepository
     Task<List<Order>> GetAllAsync();
     Task<List<Order>> GetPendingAsync();
     Task UpdateAsync(Order order);
+    Task<List<Order>> GetAllWithRelationsAsync();
+    Task<List<Order>> GetPendingWithRelationsAsync();
+
 
 }

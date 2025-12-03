@@ -19,7 +19,8 @@ public class OrdersPanelController : ControllerBase
     [HttpGet("all")]
     public async Task<IActionResult> GetAllOrders()
     {
-        var orders = await _unit.Orders.GetAllAsync();
+        var orders = await _unit.Orders.GetAllWithRelationsAsync();
+
         return Ok(orders);
     }
 
@@ -27,7 +28,8 @@ public class OrdersPanelController : ControllerBase
     [HttpGet("pending")]
     public async Task<IActionResult> GetPendingOrders()
     {
-        var orders = await _unit.Orders.GetPendingAsync();
+        var orders = await _unit.Orders.GetPendingWithRelationsAsync();
+
         return Ok(orders);
     }
 
@@ -58,4 +60,5 @@ public class OrdersPanelController : ControllerBase
 
         return Ok(order);
     }
+    
 }

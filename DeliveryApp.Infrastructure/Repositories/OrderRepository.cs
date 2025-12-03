@@ -53,5 +53,33 @@ public class OrderRepository : IOrderRepository
         _context.Orders.Update(order);
         return Task.CompletedTask;
     }
+    
+    public async Task<List<Order>> GetAllWithRelationsAsync()
+    {
+        return await _context.Orders
+            .Include(o => o.Restaurant)
+            .Include(o => o.Customer)
+            .Include(o => o.Driver)
+            .Include(o => o.Items)
+            .ThenInclude(i => i.Product)
+            .OrderByDescending(o => o.CreatedAt)
+            .ToListAsync();
+    }
+
+    public async Task<List<Order>> GetPendingWithRelationsAsync()
+    {
+        return await _context.Orders
+            .Include(o => o.Restaurant)
+            .Include(o => o.Customer)
+            .Include(o => o.Driver)
+            .Include(o => o.Items)
+            .ThenInclude(i => i.Product)
+            .Where(o => o.Status == OrderStatus.Pending)
+            .OrderByDescending(o => o.CreatedAt)
+            .ToListAsync();
+    }
+
+
+
 
 }
